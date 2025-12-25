@@ -34,7 +34,7 @@ function TasksMainMenu(props) {
       .getContribs(TASKS_MANAGEMENT_MAIN_MENU_CONTRIBUTION_KEY)
       .filter((c) => !c.filter || c.filter(rights)),
   );
-
+  return null
   return (
     <MainMenuContribution
       {...props}
